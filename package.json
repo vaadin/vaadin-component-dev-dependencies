@@ -1,6 +1,6 @@
 {
   "name": "@vaadin/vaadin-component-dev-dependencies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The common list of devDependencies for Vaadin Components",
   "license": "Apache-2.0",
   "dependencies": {
