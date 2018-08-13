@@ -20,6 +20,7 @@
     "gulp-line-ending-corrector": "^1.0.2",
     "gulp-replace": "^1.0.0",
     "gulp-stylelint": "^7.0.0",
+    "semver": "^5.5.0",
     "stylelint": "^9.0.0",
     "stylelint-config-vaadin": "^0.1.4",
     "wct-istanbul": "^0.14.3",
