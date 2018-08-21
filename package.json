@@ -25,6 +25,7 @@
     "stylelint-config-vaadin": "^0.1.4",
     "wct-istanbul": "^0.14.3",
     "wct-random-output": "^0.2.0",
+    "wct-config-vaadin": "^0.1.0",
     "web-component-tester": "^6.7.0"
   }
 }
