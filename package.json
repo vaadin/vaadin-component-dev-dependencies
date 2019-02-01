@@ -4,7 +4,7 @@
   "description": "The common list of devDependencies for Vaadin Components",
   "license": "Apache-2.0",
   "dependencies": {
-    "bower": "^1.8.4",
+    "bower": "^1.8.8",
     "coveralls": "^3.0.1",
     "eslint": "^5.0.0",
     "eslint-config-vaadin": "^0.2.7",
