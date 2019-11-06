@@ -1,3 +1,5 @@
+/// <reference types="chai-a11y-axe" />
+
 export { html } from '@open-wc/testing-helpers/index.js';
 export { aTimeout } from '@open-wc/testing-helpers/index.js';
 export { nextFrame } from '@open-wc/testing-helpers/index.js';
