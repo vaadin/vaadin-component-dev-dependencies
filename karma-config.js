@@ -53,7 +53,8 @@ function createKarmaConfig() {
       {
         pattern: 'test/unit/*.test.ts',
         type: 'module'
-      }
+      },
+      require.resolve('axe-core/axe.min.js')
     ],
     reporters: ['dots', 'coverage-istanbul'],
     port: 9876,
