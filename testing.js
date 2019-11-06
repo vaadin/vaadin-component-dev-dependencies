@@ -1,4 +1,5 @@
 import 'chai/chai.js';
+import 'sinon-chai';
 import { chaiA11yAxe } from 'chai-a11y-axe';
 
 window.chai.use(chaiA11yAxe);
