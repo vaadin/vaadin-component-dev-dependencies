@@ -87,3 +87,33 @@ export declare function end(
   target: Element,
   modifiers?: string | string[]
 ): void;
+
+export declare function enterKeyDown(
+  target: Element,
+  modifiers?: string | string[]
+): void;
+
+export declare function enterKeyUp(
+  target: Element,
+  modifiers?: string | string[]
+): void;
+
+export declare function enter(
+  target: Element,
+  modifiers?: string | string[]
+): void;
+
+export declare function spaceKeyDown(
+  target: Element,
+  modifiers?: string | string[]
+): void;
+
+export declare function spaceUpKeyUp(
+  target: Element,
+  modifiers?: string | string[]
+): void;
+
+export declare function space(
+  target: Element,
+  modifiers?: string | string[]
+): void;

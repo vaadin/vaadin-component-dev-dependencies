@@ -80,3 +80,29 @@ export function home(target, modifiers = []) {
 export function end(target, modifiers = []) {
   keyDownOn(target, 35, modifiers, 'End');
 }
+
+export function enterKeyDown(target, modifiers = []) {
+  keyDownOn(target, 13, modifiers, 'Enter');
+}
+
+export function enterKeyUp(target, modifiers = []) {
+  keyUpOn(target, 13, modifiers, 'Enter');
+}
+
+export function enter(target, modifiers = []) {
+  enterKeyDown(target, modifiers);
+  enterKeyUp(target, modifiers);
+}
+
+export function spaceKeyDown(target, modifiers = []) {
+  keyDownOn(target, 32, modifiers, ' ');
+}
+
+export function spaceKeyUp(target, modifiers = []) {
+  keyUpOn(target, 32, modifiers, ' ');
+}
+
+export function space(target, modifiers = []) {
+  spaceKeyDown(target, modifiers);
+  spaceKeyUp(target, modifiers);
+}
