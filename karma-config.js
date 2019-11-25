@@ -104,11 +104,19 @@ function createKarmaConfig() {
       babel: true,
       nodeResolve: true,
       fileExtensions: ['.ts'],
-      babelModernExclude: [
-        '**/node_modules/sinon/**/*',
+      // prevent compiling es5 libs
+      babelExclude: [
         '**/node_modules/mocha/**/*',
         '**/node_modules/chai/**/*',
-        '**/node_modules/sinon/chai/**/*'
+        '**/node_modules/sinon-chai/**/*',
+        '**/node_modules/core-js-bundle/**/*',
+      ],
+      // sinon is not completely es5...
+      babelModernExclude: ['**/node_modules/sinon/**/*'],
+      // prevent compiling non-module libs
+      babelModuleExclude: [
+        '**/node_modules/mocha/**/*',
+        '**/node_modules/core-js-bundle/**/*'
       ]
     }
   };
