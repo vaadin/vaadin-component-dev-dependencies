@@ -11,7 +11,7 @@
     "@open-wc/building-rollup": "^0.14.3",
     "@open-wc/karma-esm": "^2.10.5",
     "@open-wc/testing-helpers": "^1.4.0",
-    "@polymer/iron-test-helpers": "^3.0.1",
+    "@vaadin/test-helpers": "^0.1.0",
     "@types/chai": "^4.2.5",
     "@types/mocha": "^5.2.7",
     "@types/sinon": "^7.5.1",
