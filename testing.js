@@ -6,7 +6,8 @@ export {
   html,
   aTimeout,
   nextFrame,
-  fixture
+  fixture,
+  oneEvent
 } from '@open-wc/testing-helpers/index.js';
 
 export const { expect } = window.chai;
