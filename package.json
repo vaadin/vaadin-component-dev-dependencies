@@ -17,7 +17,7 @@
     "@types/sinon": "^7.5.1",
     "@types/sinon-chai": "3.2.3",
     "@webcomponents/webcomponentsjs": "^2.4.1",
-    "api-viewer-element": "^0.3.10",
+    "api-viewer-element": "^0.3.11",
     "axe-core": "^3.4.1",
     "chai": "^4.2.0",
     "chai-a11y-axe": "^1.2.2",
