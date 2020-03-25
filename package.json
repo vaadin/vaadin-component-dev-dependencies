@@ -29,7 +29,7 @@
     "eslint-config-vaadin": "^0.3.5",
     "hermione": "^3.0.1",
     "hermione-esm": "web-padawan/gemini-esm#hermione",
-    "hermione-sauce-connect": "^0.0.1",
+    "hermione-sauce": "git://github.com/web-padawan/hermione-sauce#initial",
     "husky": "^4.2.3",
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
